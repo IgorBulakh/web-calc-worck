@@ -1,0 +1,88 @@
+/* brackpoint - 320px */
+/* brackpoint - 375px */
+/* brackpoint - 425px */
+/* brackpoint - 768px */
+/* brackpoint - 1024px */
+
+@media screen and () {
+  
+}
+@media screen and (max-width:768px) {
+  .wrapper{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 2fr);
+  }
+  
+}
+@media screen and () {
+  
+}
+@media screen and (max-width: 425px) {
+  .wrapper{
+    display: block;
+    padding: 20px;
+  }
+
+    .contact-section {
+    display: none;
+  }
+  .expiriens-info{
+    font-weight: bold;
+  }
+
+  .link-my-work{
+    margin-bottom: 32px;
+  }
+
+.contact-section-item.contact-section-mobile{
+    display: flex;
+  }
+
+
+  .expiriens-section {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  /* <!-- info-section --> */
+
+.my-info-section{
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
+}
+
+.my-info-section .descriptions{
+  
+  /* width: 100%;
+  text-align: center; */
+  
+}
+.description-live{
+  width: 100%;
+  text-align: center; 
+
+}
+
+.description-list {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.description-text{
+
+  padding: 0 36px;
+  text-align: center;
+}
+
+
+/* form-price */
+.form-price{
+  width: 100%;
+}
+}
