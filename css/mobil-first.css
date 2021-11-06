@@ -1,0 +1,108 @@
+/* brackpoint - 320px */
+/* brackpoint - 375px */
+/* brackpoint - 425px */
+/* brackpoint - 768px */
+/* brackpoint - 1024px */
+
+
+
+
+@media screen and (max-width: 479px) {
+
+.wrapper{
+  padding: 15px;
+}
+
+  .contact-mobile{
+  display: grid;
+  padding-bottom: 15px;
+    
+  }
+
+  .contact-section-bottom{
+    order: 2;
+
+  }
+  .expiriens-section-top{
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+/* ===================my-info-sections============= */
+
+.my-info-section{
+  padding: 20px;
+}
+
+  .description-hero {
+  /* font-size: 48px;
+  line-height: 48px; */
+  padding: 0 10px;
+  font-size: 32px;
+  line-height: 38px;
+
+}
+.description-live{
+  margin-bottom: 50px;
+}
+.list-cases{
+  
+  /* text-align: start; */
+}
+
+}
+
+@media screen and (min-width: 480px) {
+
+  .wrapper {
+  /* width: 480px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  outline: 1px solid salmon;
+}
+
+
+  .contact-mobile{
+    padding: 20px;
+ 
+  }
+  .contact-section {
+ position: absolute;
+  right: 80px;
+  top: 30px;
+}
+  .my-info-section{
+    padding: 20px;
+    justify-content: center;
+}
+.description-name{
+  font-size: 18px;
+}
+.form-price {
+  padding: 20px 60px;
+ grid-column-start: 1;
+ grid-column-end: 4;
+  /* width: 33%; */
+}
+  .form-price-form {
+  padding: 60px;
+  
+}
+
+}
+
+@media screen and (max-width: 767px) {
+ 
+
+}
+@media screen and (min-width: 768px) {
+   .form-price-form {
+  padding: 40px;
+  
+}
+
+}
+
